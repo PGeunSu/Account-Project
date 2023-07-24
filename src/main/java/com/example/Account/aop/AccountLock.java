@@ -7,5 +7,6 @@ import java.lang.annotation.*;
 @Documented
 @Inherited
 public @interface AccountLock {
+    //1
     long tryLockTime() default 5000L;
 }
